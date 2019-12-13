@@ -6,7 +6,7 @@
 <!-- badges: end -->
 
 
-The goal of tweetstats is to improve accessibility of Twitter analyses
+The goal of rtweetstats is to improve accessibility of Twitter analyses
 for the average R user through two functions; keystats and userstats. The
 former analyzes user-specified keywords and hashtags, returning an HTML
 ouput with various summary graphics while the latter analyzes the pages
