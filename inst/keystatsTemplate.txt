@@ -8,7 +8,8 @@ table {
   color: #1A5276 !important;
 }
 </style>
-### <span style="color:#154360">Summary Report of Tweets Searced by Keyword xxxkeyword</span>
+### <span style="color:#154360">Summary Report of Tweets Searched by Keyword xxxkeyword</span>
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -82,9 +83,9 @@ hashtags_complete <- na.omit(hashtags)
 
 ------
 
-### <span style="color:#154360"> Hashtag Word Clouds and Bar Plot</span>
-##### <span style="color:#1A5276">For the word cloud the scale, number of words, and color are all customizeable. </span>
-##### <span style="color:#1A5276">Input the desired hashtag in order to view the output of the count of unique related hashtags found in tweets.</span>
+### <span style="color:#154360"> Hashtag Word Cloud, Bar Plot, and Radar Chart</span>
+##### <span style="color:#1A5276">Most frequent hashtags related to keyword input found in tweets:</span>
+
 ```{r,message=FALSE, warning=FALSE, echo=FALSE}
 set.seed(1234)
 # wordcloud(hashtags_complete$hashtag, min.freq=5, scale=c(4, .5), max.words = eval(substitute(xxxtop_num)), random.order=FALSE, random.color = FALSE, rot.per=0.1)
@@ -103,7 +104,7 @@ hashtags_complete %>%
   labs(y = "Count",
        x = "Unique words",
        title = "Count of Unique Hashtags",
-       subtitle = paste("Top", xxxtop_num, " most frequent unique hashtags found in tweets related to",xxxkeyword),
+       subtitle = paste("Top",xxxtop_num, " most frequent unique hashtags found in tweets related to",xxxkeyword),
        caption = paste("\nReal time tweet created from",min(df$created_at)))
 
 ```

@@ -1,3 +1,4 @@
+<img src="radarchart.png"
 
 # rtweetstats
 
