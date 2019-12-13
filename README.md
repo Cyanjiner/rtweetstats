@@ -18,7 +18,7 @@ tweets.
 You can install this package with the following code:
 
 ``` r
-f(!require(devtools)){
+if(!require(devtools)){
    install.packages("devtools")
 }
 devtools::install_github("annasophiepeters/rtweetstats")
