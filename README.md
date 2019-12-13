@@ -21,7 +21,7 @@ You can install this package with the following code:
 f(!require(devtools)){
    install.packages("devtools")
 }
-devtools::install_github("annasophiepeters/tweetstats")
+devtools::install_github("annasophiepeters/rtweetstats")
 ```
 
 ## Example
