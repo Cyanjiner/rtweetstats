@@ -1,4 +1,4 @@
-<img src="radarchart.png"
+<img src="radarchart.png">
 
 # rtweetstats
 
