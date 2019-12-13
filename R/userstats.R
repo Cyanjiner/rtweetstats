@@ -26,6 +26,11 @@
 #' userstats(c("taylorswift13","21savage","trvisxx","katyperry"), 1000, year=2019, x = 3)
 #' }}
 #' @rdname userstats
+#' @import rtweet
+#' @import dplyr
+#' @import ggplot2
+#' @import knitr
+#' @import kableExtra
 #' @export
 
 userstats <- function(user, n=1000, bg_col = "white", txt_col = "#1A5276", year=2019, x=10){

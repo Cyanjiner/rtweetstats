@@ -20,6 +20,14 @@
 #'  }
 #' }
 #' @rdname keystats
+#' @import rtweet
+#' @import dplyr
+#' @import tidytext
+#' @import wordcloud
+#' @import ggplot2
+#' @import tm
+#' @import fmsb
+#' @import tidyr
 #' @export
 
 keystats <- function(key,n=10000,top_num=10, graph_col = "dodgerblue3"){

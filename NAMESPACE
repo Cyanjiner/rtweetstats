@@ -2,3 +2,13 @@
 
 export(keystats)
 export(userstats)
+import(dplyr)
+import(fmsb)
+import(ggplot2)
+import(kableExtra)
+import(knitr)
+import(rtweet)
+import(tidyr)
+import(tidytext)
+import(tm)
+import(wordcloud)

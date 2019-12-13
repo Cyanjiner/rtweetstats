@@ -20,11 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r,warning=FALSE,message=FALSE,echo=FALSE}
 library(rtweet)
 library(dplyr)
-library(tidytext)
-library(rtweet)
-library(wordcloud)
 library(ggplot2)
-library(tm)
 library(knitr)
 library(kableExtra)
 

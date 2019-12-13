@@ -44,9 +44,10 @@ Imports:
     wordcloud,
     ggplot2,
     tm,
-    kableExtra
+    kableExtra,
+    fmsb,
+    knitr
 Suggests: 
-    knitr,
     rmarkdown
 VignetteBuilder: knitr
 RoxygenNote: 6.1.1
